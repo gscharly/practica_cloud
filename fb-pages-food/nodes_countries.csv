@@ -1,0 +1,621 @@
+,name,new_id,country,chef,country_id
+0,Josh Marks,386,USA,1,41
+1,Blue Ribbon Restaurants,473,USA,0,41
+2,Pat Neely,1,USA,1,41
+3,La Griglia,542,Italy,0,21
+4,Jose Garces,189,Ecuador,1,8
+5,Zac Kara,454,USA,1,41
+6,Big Fish Seafood Bistro,158,Hungary,0,17
+7,Tom Aikens,248,England,1,10
+8,The Habit Burger Grill,537,USA,0,41
+9,Chef Sheldon Simeon,293,USA,1,41
+10,Ochikeron,171,Japan,0,22
+11,Taco Bell Cyprus,485,USA,0,41
+12,Christophe Michalak,258,France,1,13
+13,Peohe's,534,USA,0,41
+14,Destino Ibiza,500,Spain,0,36
+15,KFC,194,USA,0,41
+16,Chef Shirley Chung,34,USA,1,41
+17,Doug Adams,465,USA,1,41
+18,Moshe Segev,56,Israel,1,20
+19,Angel Leon Gonzalez,511,Spain,1,36
+20,Ben Ebbrell - Sorted Chef,201,England,1,10
+21,Dick's Drive In Restaurant,188,USA,0,41
+22,John Whaite,440,England,1,10
+23,Andy Luotto,484,Italy,1,21
+24,Antonino Cannavacciuolo,240,Italy,1,21
+25,Charley's Crab,533,USA,0,41
+26,Anne-Sophie Pic,235,France,1,13
+27,Hilah Cooking,82,USA,0,41
+28,Taco Bell Costa Rica,212,USA,0,41
+29,Chef Robert Irvine,35,England,1,10
+30,Nutella Cafe Chicago,19,USA,0,41
+31,Grand Concourse,154,USA,0,41
+32,Domino's Pizza,334,USA,0,41
+33,Chef Lorena Garcia,148,Venezuela,1,43
+34,James Martin,599,England,1,10
+35,Domino's Pizza,382,USA,0,41
+36,Nando's,230,South Africa,0,34
+37,Roy Yamaguchi,7,Japan,1,22
+38,Susan Feniger,576,USA,1,41
+39,McDonald's,164,USA,0,41
+40,Al Brown New Zealand Chef,594,New Zealand,1,28
+41,Veggie Grill,396,USA,0,41
+42,Domino's Pizza,284,USA,0,41
+43,McDonald's,63,USA,0,41
+44,Franklin Becker,160,USA,1,41
+45,McDonald's,573,USA,0,41
+46,Éric Frechon,61,France,1,13
+47,KFC,25,USA,0,41
+48,The Edgy Veg,409,Canada,0,4
+49,Domino's Pizza,329,USA,0,41
+50,Zoёs Kitchen,211,USA,0,41
+51,Chef Mark Garcia,434,USA,1,41
+52,Dunkin' Donuts,218,USA,0,41
+53,McDonald's,480,USA,0,41
+54,Chef Claudia's Cocina,309,Mexico,1,26
+55,McDonald's,313,USA,0,41
+56,Alex Guarnaschelli,56,USA,1,41
+57,Hari Ghotra,138,India,1,18
+58,Nando's,591,South Africa,0,34
+59,Vicky Ratnani,202,India,1,18
+60,Boston Market,14,USA,0,41
+61,Bobby's Burger Palace,246,USA,0,41
+62,Chef Guy Martin,462,France,1,13
+63,Pablo Massey,290,Argentina,1,0
+64,McDonald's,518,USA,0,41
+65,Burger King Thailand,106,USA,0,41
+66,Dunkin' Donuts,477,USA,0,41
+67,McDonald's Deutschland Karriere,504,USA,0,41
+68,McDonald's,335,USA,0,41
+69,Michael White,355,USA,0,41
+70,Lillie's Asian Cuisine,33,Japan,0,22
+71,Aquarium Restaurant - Nashville,496,USA,0,41
+72,Manu Feildel,62,France,1,13
+73,맥도날드 (McDonald's),255,USA,0,41
+74,Camille Becerra,325,USA,1,41
+75,KFC,276,USA,0,41
+76,Whataburger,153,USA,0,41
+77,Jumia Food,362,Nigeria,0,29
+78,Big Fernand,10,France,1,13
+79,Karlos Arguiñano,460,Spain,1,36
+80,Karen Martini,282,Australia,1,1
+81,Ogro Jimmy,567,Brazil,1,3
+82,Chili's Tunisie,304,Tunisia,0,40
+83,Magnum,5,England,0,10
+84,Carrabba's Italian Grill,339,Italy,0,21
+85,Domino's Pizza,21,USA,0,41
+86,Susur Lee,320,Canada,1,4
+87,Cook with Chef Duminda,464,Australia,1,1
+88,KFC,51,USA,0,41
+89,Roblé,156,USA,1,41
+90,KFC,149,USA,0,41
+91,Brooke Williamson,155,USA,1,41
+92,René Redzepi,505,Denmark,1,7
+93,Cadillac Bar Kemah,209,USA,0,41
+94,Fast Ed,236,Australia,1,1
+95,Cesare Casella,324,Italy,1,21
+96,Nando's,527,South Africa,0,34
+97,Gandy Dancer Saloon/Oyster Bar,78,USA,0,41
+98,Hardee's,226,USA,0,41
+99,Peter Kuruvita,433,Australia,1,1
+100,Chef Francois Payard,170,France,1,13
+101,PROPERCORN,468,USA,0,41
+102,Marc Veyrat,472,France,1,13
+103,Chope,387,Singapore,0,33
+104,Simon Bryant,392,Australia,1,1
+105,Massimo Mele,193,Italy,1,21
+106,Chef Sam Talbot,544,USA,1,41
+107,José Andrés,9,Spain,1,36
+108,Opry City Stage,308,USA,0,41
+109,Cucina by Wolfgang Puck,370,USA,0,41
+110,Iginio Massari,344,Italy,1,21
+111,Domino's Pizza,144,USA,0,41
+112,Thomas Keller,588,USA,1,41
+113,Emma Frisch,463,USA,1,41
+114,Dunkin' Donuts,521,USA,0,41
+115,McDonald's,165,USA,0,41
+116,El Torito,215,Mexico,0,26
+117,Chef Marc Murphy,601,USA,1,41
+118,Dina Nikolaou,481,Greece,1,15
+119,KFC,358,USA,0,41
+120,Acapulco,204,USA,0,41
+121,Delverde,270,Spain,0,36
+122,Taco Bell Panamá,11,USA,0,41
+123,Pollo Campero El Salvador,606,El Salvador,0,9
+124,KFC,42,USA,0,41
+125,Michael Lomonaco,366,USA,1,41
+126,Domino's Pizza Türkiye,150,USA,0,41
+127,The Tuscan Gun,322,USA,0,41
+128,Burger Lounge,379,USA,0,41
+129,Pasqualino Barbasso,608,Italy,1,21
+130,McDonald's,579,USA,0,41
+131,McDonald's,424,USA,0,41
+132,Jumia Food,429,Nigeria,0,29
+133,Dunkin' Donuts,105,USA,0,41
+134,Alfred Portale,242,USA,1,41
+135,Magnum,416,England,0,10
+136,Jumia Food,220,Nigeria,0,29
+137,Jumia Food,535,Nigeria,0,29
+138,Alberto Chicote,337,Spain,1,36
+139,Lee Anne Wong,0,USA,1,41
+140,Nando's PERi-PERi,30,South Africa,0,34
+141,Nando's,213,South Africa,0,34
+142,Paul Qui,207,USA,1,41
+143,McDonald's,532,USA,0,41
+144,"Subway, Cayman Islands",234,USA,0,41
+145,Chef Aaron McCargo Jr,615,USA,1,41
+146,Chef Carla Hall,350,USA,1,41
+147,Gary Mehigan,169,Australia,1,1
+148,Leslie Gilliams,159,USA,1,41
+149,Cook with Amber,456,USA,1,41
+150,Sang Yoon,342,South Korea,1,35
+151,KFC,555,USA,0,41
+152,McDonald's República Dominicana,491,USA,0,41
+153,McDonald's,48,USA,0,41
+154,Chef Richard Sandoval,593,Mexico,1,26
+155,Jumia Food,497,Nigeria,0,29
+156,Christian Bau,450,Germany,1,14
+157,Jumia Food,486,Nigeria,0,29
+158,McDonald's,85,USA,0,41
+159,McDonald's,572,USA,0,41
+160,Aliya LeeKong,482,USA,1,41
+161,Taco Bell Kuwait,525,USA,0,41
+162,McDonald's,488,USA,0,41
+163,Chef Ben Ford,361,USA,1,41
+164,Taste of London,286,England,0,10
+165,Cristian D'Elia,299,Italy,1,21
+166,Guillaume Gomez,517,France,1,13
+167,Christine Ha,458,USA,1,41
+168,Chef Daniel Boulud,70,France,1,13
+169,Per Se,46,USA,0,41
+170,Niko Romito,333,Italy,1,21
+171,Marc Forgione,257,USA,1,41
+172,Noëmie Honiat Top Chef,443,France,1,13
+173,Princi,417,Italy,0,21
+174,Domino's Pizza,237,USA,0,41
+175,Papacho's,412,Peru,0,31
+176,Hugh Acheson,128,Canada,1,4
+177,McDonald's,327,USA,0,41
+178,Dunkin' Donuts,548,USA,0,41
+179,Domino's Pizza,609,USA,0,41
+180,McDonald's,612,USA,0,41
+181,Jumia Food,6,Nigeria,0,29
+182,Alex Atala,146,Brazil,1,3
+183,RIBS - True American Barbecue,582,USA,0,41
+184,Burger King Malaysia,523,USA,0,41
+185,Chef Sue Zemanick,208,USA,1,41
+186,Chef Carlo Cracco,3,Italy,1,21
+187,McDonald's,179,USA,0,41
+188,Chili's Beirut,173,Lebanon,0,24
+189,Duff Goldman,312,USA,1,41
+190,Domino's Guatemala,263,USA,0,41
+191,Dani García,498,Spain,1,36
+192,Nando's,108,South Africa,0,34
+193,Taco Bell India,241,USA,0,41
+194,Brew Bistro and Lounge,561,Kenya,0,23
+195,Maneet Chauhan,549,India,1,18
+196,Mei Lin,254,USA,1,41
+197,Chetna Makan,418,India,1,18
+198,Simon Gault,121,New Zealand,1,28
+199,Tom Colicchio,288,USA,1,41
+200,Chef David Burke,116,USA,1,41
+201,Chef Cynthia Louise,53,Australia,1,1
+202,Eddie V's Prime Seafood,196,USA,0,41
+203,Daniel Humm,107,Switzerland,1,38
+204,Delverde,187,Spain,0,36
+205,Nando's,502,South Africa,0,34
+206,Scott Conant,90,USA,1,41
+207,Chef Jamie DeRosa,604,USA,1,41
+208,Emmi CAFFÈ LATTE,66,Switzerland,0,38
+209,Cindy Pawlcyn,281,USA,1,41
+210,McDonald's,421,USA,0,41
+211,KFC,296,USA,0,41
+212,Pierre Gagnaire,376,France,1,13
+213,Outback Steakhouse,305,USA,0,41
+214,Chef Hirohiko Shoda,40,Japan,1,22
+215,Chef Andrew Gruel,436,USA,1,41
+216,Donatella Arpaia,439,USA,1,41
+217,foodpanda,605,Germany,0,14
+218,Dean Fearing,23,USA,1,41
+219,Chef Charlie Palmer,275,USA,1,41
+220,KFC,467,USA,0,41
+221,Emmi CAFFÈ LATTE,461,Switzerland,0,38
+222,McDonald's,551,USA,0,41
+223,Julia Child,584,USA,1,41
+224,Geoffrey Zakarian,87,USA,1,41
+225,YANNICK ALLENO OFFICIEL,552,France,1,13
+226,Narda Lepes,253,Argentina,1,0
+227,Quique Dacosta,474,Spain,1,36
+228,McDonald's,45,USA,0,41
+229,Tom Douglas Restaurants,268,USA,1,41
+230,Nando's,279,South Africa,0,34
+231,Johnny Prep,197,USA,1,41
+232,Mathieu Pacaud,401,France,1,13
+233,Mirko Ronzoni,185,Italy,1,21
+234,Anjali Pathak,80,India,1,18
+235,Second Floor Cafe 貳樓餐飲,402,Taiwan,0,39
+236,Chef G. Garvin,302,USA,1,41
+237,KFC,332,USA,0,41
+238,Chef Maeve Rochford,557,USA,1,41
+239,Manjula's Kitchen - Indian Vegetarian Recipes,166,India,0,18
+240,Enrique Olvera,323,Mexico,1,26
+241,Valentin Neraudeau,388,France,1,13
+242,Taco Bell UK,145,USA,0,41
+243,Chevys Fresh Mex,540,USA,0,41
+244,Nyesha Arrington,250,USA,0,41
+245,Luna Grill,96,USA,0,41
+246,Chef Nina Compton,373,USA,1,41
+247,McDonald's,123,USA,0,41
+248,Big Fish Seafood Bistro,437,Hungary,0,17
+249,Dunkin' Donuts,219,USA,0,41
+250,Domino's Pizza,613,USA,0,41
+251,Chef Rubio,575,Italy,1,21
+252,Stephanie Izard,510,USA,1,41
+253,KFC,559,USA,0,41
+254,Kevin Dundon,581,Ireland,1,19
+255,KFC,423,USA,0,41
+256,Eduardo Palazuelos,610,Mexico,1,26
+257,Domino's Pizza,152,USA,0,41
+258,Harlem EatUp,413,USA,0,41
+259,Gavin Kaysen,205,USA,1,41
+260,Taco Bell Rep Dom,380,USA,0,41
+261,Francesco Sole,272,Italy,1,21
+262,McDonald's,142,USA,0,41
+263,Raymond Blanc,269,France,1,13
+264,Michel Nischan,289,USA,1,41
+265,Cuoco Filippo La Mantia,65,Italy,0,21
+266,Colin Fassnidge,364,Ireland,1,19
+267,Chuck Hughes,345,Canada,1,4
+268,Amy Thielen,102,USA,1,41
+269,Thierry Rautureau,519,France,1,13
+270,Jean-François Piège,363,France,1,13
+271,Chef Diego Lozano,614,Brazil,1,3
+272,Jacques Pépin,317,France,1,13
+273,Donato De Santis,563,Italy,1,21
+274,Juliana Lopez May,104,Argentina,1,0
+275,McDonald's,586,USA,0,41
+276,Robin Miller,611,USA,1,41
+277,Cadillac Bar Houston,180,USA,0,41
+278,Chef Derrick Fox,479,USA,1,41
+279,Nando's,28,South Africa,0,34
+280,McDonald's,515,USA,0,41
+281,Domino's Mx,84,USA,0,41
+282,Dan Kluger,68,USA,1,41
+283,Chef Ana Paula,112,Mexico,1,26
+284,Dunkin' Donuts,556,USA,0,41
+285,Taco Bell,264,USA,0,41
+286,Bryce Shuman,550,USA,1,41
+287,Eva Arguiñano,587,Spain,1,36
+288,Gandy Dancer,210,USA,0,41
+289,McDonald's,297,USA,0,41
+290,Alex French Guy Cooking,251,France,1,13
+291,Magnum,266,England,0,10
+292,Marcus Samuelsson,217,Ethiopia,1,11
+293,Tom's Kitchen,499,England,0,10
+294,McDonald's,487,USA,0,41
+295,foodpanda,26,Germany,0,14
+296,Dairy Queen,326,USA,0,41
+297,Roxanne Spruance,569,USA,1,41
+298,hellofood,301,Germany,0,14
+299,McDonald's,127,USA,0,41
+300,Hearth,359,USA,0,41
+301,Elizabeth Karmel,603,USA,1,41
+302,Eddie Jackson - FIT CHEF EDDIE,321,USA,1,41
+303,KFC,598,USA,0,41
+304,KFC,565,USA,0,41
+305,Subway,618,USA,0,41
+306,Douglas Keane,59,USA,1,41
+307,Emmi CAFFÈ LATTE,574,Switzerland,0,38
+308,McDonald's,524,USA,0,41
+309,Martín Berasategui,88,Spain,1,36
+310,Shane Delia,285,Australia,1,1
+311,Chili's México,73,Mexico,0,26
+312,Katie Pix,110,England,1,10
+313,Danny Smiles,391,Canada,1,4
+314,Ranveer Brar,426,India,1,18
+315,Diego Guerrero,64,Spain,1,36
+316,McDonald's,357,USA,0,41
+317,翠華餐廳 Tsui Wah Restaurant,190,China,0,5
+318,Five Guys,589,USA,0,41
+319,Domino's Pizza,75,USA,0,41
+320,Samin Nosrat,617,USA,1,41
+321,McDonald's,566,USA,0,41
+322,Morton's The Steakhouse,129,USA,0,41
+323,River Crab Blue Water Inn,55,USA,0,41
+324,George Pagonis,4,USA,1,41
+325,Steve Konopelski,394,USA,1,41
+326,Bruno Oteiza,571,Spain,1,36
+327,Nikki Dinki,451,USA,1,41
+328,Virginia Willis,446,USA,1,41
+329,Nando's,547,South Africa,0,34
+330,McDonald's,315,USA,0,41
+331,McDonald's,508,USA,0,41
+332,Chef Alex Levin,607,USA,1,41
+333,McDonald's,348,USA,0,41
+334,Aarón Sánchez,597,USA,1,41
+335,Dan Steph & Emmy,341,USA,1,41
+336,Dunkin' Donuts,267,USA,0,41
+337,Chef Elizabeth Falkner,198,USA,1,41
+338,Ernst Knam,17,Germany,1,14
+339,Guy Savoy,244,France,0,13
+340,McDonald's Japan,595,USA,0,41
+341,Nando's,438,South Africa,0,34
+342,McDonald's,191,USA,0,41
+343,Chef Clément,459,France,1,13
+344,Christina Tosi,15,USA,1,41
+345,Paul Hollywood,408,England,1,10
+346,Xi'an Famous Foods 西安名吃,167,USA,0,41
+347,Emmi CAFFÈ LATTE,141,Switzerland,0,38
+348,Lío,513,Spain,0,36
+349,Guga Rocha,93,Brazil,1,3
+350,Jock Zonfrillo,228,Scotland,1,32
+351,foodpanda - 空腹熊貓,216,Germany,0,14
+352,Chef Carmen Gonzalez,239,USA,1,41
+353,Suzanne Goin,509,USA,1,41
+354,McDonald's,395,USA,0,41
+355,Food Busker,184,England,0,10
+356,Crepes & Waffles,91,Colombia,0,6
+357,McDonald's,430,USA,0,41
+358,Jumia Food,478,Nigeria,0,29
+359,Matthew Kenney,122,USA,1,41
+360,Ken Oringer,351,USA,1,41
+361,Gemma Stafford,407,Ireland,1,19
+362,KFC,113,USA,0,41
+363,Buddy Valastro,120,USA,1,41
+364,Bahama Breeze Island Grille,29,USA,0,41
+365,Domino's Pizza,400,USA,0,41
+366,Marcel Vigneron,445,USA,1,41
+367,Krispy Kreme UK,200,USA,0,41
+368,Kunal Kapur,300,India,1,18
+369,Gregory Gourdet,83,USA,1,41
+370,Ben Sargent & Dr. Klaw,2,USA,0,41
+371,Domino's Pizza,119,USA,0,41
+372,Martha Collison,506,England,1,10
+373,Francis Mallmann,225,Argentina,1,0
+374,Cat Cora,60,USA,1,41
+375,"Mary Nolan, Bon Appétit Executive Chef",514,USA,1,41
+376,Bobby Flay,182,USA,1,41
+377,Taste Of Paris Official,368,France,0,13
+378,McDonald's,118,USA,0,41
+379,RED Sushi and Hibachi Grill,490,USA,0,41
+380,Chili's Qatar,369,Mexico,0,26
+381,Bubba Gump Shrimp Co.,331,USA,0,41
+382,Seamus Mullen,238,USA,1,41
+383,Blue Ribbon Fried Chicken,206,USA,0,41
+384,McDonald's,546,USA,0,41
+385,Famous Dave's Bar-B-Que of America,294,USA,0,41
+386,Domino's Pizza,101,USA,0,41
+387,Chef Jamie Gwen,58,England,1,10
+388,Chef Marcela Valladolid,175,USA,1,41
+389,McDonald's,596,USA,0,41
+390,Chef Rick Tramonto,277,USA,1,41
+391,Chef Todd Mohr,406,USA,1,41
+392,Franklin Barbecue,233,USA,0,41
+393,Spago Las Vegas,135,USA,0,41
+394,Ludo Lefebvre,245,France,1,13
+395,Donal Skehan,143,Ireland,1,19
+396,Anis Nabilah,600,Malasia,1,25
+397,Magnum,287,England,0,10
+398,KFC,466,USA,0,41
+399,Bradley Ogden,536,USA,1,41
+400,Chef Michael Ferraro,383,USA,1,41
+401,Jumia Food,427,Nigeria,0,29
+402,Tim Love,130,USA,1,41
+403,Domino's Pizza,16,USA,0,41
+404,Audra Morrice,109,Australia,1,1
+405,Chef Kent Graham,89,USA,1,41
+406,Santiago Giorgini,232,Argentina,1,0
+407,CAKE-BOY,560,England,0,10
+408,Carl's Jr. NZ,192,USA,0,41
+409,Rachel Allen,172,Ireland,1,19
+410,Pierre Sang Boyer Officiel,470,France,1,13
+411,McDonald's,316,USA,0,41
+412,McDonald's,328,USA,0,41
+413,Lindsay Ann Bakes,133,USA,1,41
+414,Anne Burrell,151,USA,1,41
+415,Chope,390,Singapore,0,33
+416,Steak 'n Shake,475,USA,0,41
+417,Chef Michael Smith,384,Canada,1,4
+418,McDonald's,347,USA,0,41
+419,Maru Botana,81,Argentina,1,0
+420,Red Lobster México,178,Mexico,0,26
+421,KFC,619,USA,0,41
+422,FONDA MEXICANA,367,Mexico,0,26
+423,Chef Jennifer Carroll,221,USA,1,41
+424,Jimmy John's,330,USA,0,41
+425,Vegan Black Metal Chef,195,USA,1,41
+426,Celler de Can Roca,69,Spain,0,36
+427,Juan Mari Arzak,385,Spain,1,36
+428,Dining with Flynn,131,USA,1,41
+429,McDonald's,100,USA,0,41
+430,KFC,222,USA,0,41
+431,Chef Adrianne,378,USA,1,41
+432,KFC,522,USA,0,41
+433,Chef Rick Moonen,558,USA,1,41
+434,foodpanda,74,Germany,0,14
+435,Dunkin' Donuts,249,USA,0,41
+436,foodpanda,471,Germany,0,14
+437,Nando's,147,South Africa,0,34
+438,Chef Dana Cohen HK,260,USA,1,41
+439,McDonald's,507,USA,0,41
+440,Taco Bell El Salvador,259,USA,0,41
+441,foodpanda,98,Germany,0,14
+442,Madison Cowan,132,England,1,10
+443,Puesto,77,Mexico,0,26
+444,Justin Warner,111,USA,1,41
+445,Eckart Witzigmann,13,Austria,1,2
+446,My Cupcake Addiction,397,England,0,10
+447,Matt Moran,41,Australia,1,1
+448,Frantzén,592,Sweden,0,37
+449,KFC,415,USA,0,41
+450,Telepizza Guatemala,318,Spain,0,36
+451,Jehangir,161,India,1,18
+452,Johnny Iuzzini,372,USA,1,41
+453,Pedro Lambertini,493,Argentina,1,0
+454,McDonald's,307,USA,0,41
+455,Dale Talde,455,USA,1,41
+456,Amandine Chaignot,262,France,1,13
+457,Graham Elliot,432,USA,1,41
+458,McDonald's,585,USA,0,41
+459,Skinny Chef,399,England,0,10
+460,Chef Rusty Hamlin,177,USA,1,41
+461,Domino's Pizza,545,USA,0,41
+462,Chef Mary Sue Milliken,39,USA,1,41
+463,Delverde,420,Spain,0,36
+464,Alessandro Borghese,377,Italy,1,21
+465,Chef Jet Tila,229,USA,1,41
+466,Grotto,223,Israel,0,20
+467,Domino's Pizza,441,USA,0,41
+468,McDonald's,38,USA,0,41
+469,Seasons 52,512,USA,0,41
+470,Norbert Tarayre,590,France,1,13
+471,Chef Jimmy Boswell,553,New Zealand,1,28
+472,McDonald's Paraguay,256,USA,0,41
+473,Relais & Châteaux,530,France,0,13
+474,Four Seasons Hotels and Resorts,442,Canada,0,4
+475,Sanjeev Kapoor,32,India,1,18
+476,Chef Billy Parisi,50,USA,1,41
+477,Ravintola Salve,36,Finland,0,12
+478,Claire Robinson,271,USA,1,41
+479,Paul Bocuse,526,France,1,13
+480,UMass Dining,314,USA,0,41
+481,Domino's Pizza Nigeria,353,USA,0,41
+482,Chef Brian Duffy,243,USA,1,41
+483,Barbie Marshall,298,USA,1,41
+484,McDonald's Vietnam,27,USA,0,41
+485,Kirti Bhoutika,44,India,1,18
+486,McDonald's,457,USA,0,41
+487,DedeMed,422,Lebanon,0,24
+488,Spike Mendelsohn,531,USA,1,41
+489,Outlander Kitchen,564,Canada,0,4
+490,Wolfgang Puck,227,Austria,1,2
+491,Russell Jackson,37,USA,1,41
+492,D'O - Davide Oldani,577,Italy,1,21
+493,KFC,398,USA,0,41
+494,Chef Casey Thompson,54,USA,1,41
+495,Dominos,124,USA,0,41
+496,McDonald's,602,USA,0,41
+497,Dunkin' Donuts,12,USA,0,41
+498,Bruno Ménard,181,France,1,13
+499,Dean Sheremet,338,USA,1,41
+500,Emily Ellyn,389,USA,1,41
+501,Hakim Chajar,203,Morocco,1,27
+502,'Wichcraft,528,USA,0,41
+503,Gino D'Acampo,346,Italy,1,21
+504,Noma,410,Denmark,0,7
+505,Alain Ducasse,352,France,1,13
+506,Texas Roadhouse,76,USA,0,41
+507,Logan Junior Chef,265,USA,1,41
+508,Domino's Pizza,516,USA,0,41
+509,MASAの料理ABC,186,Japan,0,22
+510,Chili's Grill & Bar,8,Mexico,0,26
+511,McDonald's,31,USA,0,41
+512,Emmi CAFFÈ LATTE,280,Switzerland,0,38
+513,Nando's,306,South Africa,0,34
+514,Josh Elkin,580,Canada,1,4
+515,KFC,319,USA,0,41
+516,McDonald's,79,USA,0,41
+517,Bruno Barbieri,538,Italy,1,21
+518,NishaMadhulika,18,India,1,18
+519,Christophe Adam,476,France,1,13
+520,KFC,52,USA,0,41
+521,Chart House,214,USA,0,41
+522,McDonald's,543,USA,0,41
+523,Chef Ben Churchill,291,England,1,10
+524,Sonia Peronaci,356,Italy,1,21
+525,Crystal Jade Palace - JW Marriott Hotel Hanoi,231,Vietnam,1,44
+526,Meriwether's,452,USA,0,41
+527,Harold Dieterle,349,USA,1,41
+528,Domino's Pizza,274,USA,0,41
+529,José Santaella,568,Spain,1,36
+530,McDonald's,199,USA,0,41
+531,Monti Carlo,360,Italy,0,21
+532,Domino's Pizza,117,USA,0,41
+533,Taco Bell Guatemala,174,USA,0,41
+534,Maria Loi,20,Greece,1,15
+535,Red Robin Gourmet Burgers,247,USA,0,41
+536,Pescaria,405,Italy,0,21
+537,Nando's,501,South Africa,0,34
+538,Eric Ripert,340,France,1,13
+539,Chef Pete Evans,449,Austria,1,2
+540,KFC,365,USA,0,41
+541,Saransh Goila,183,India,1,18
+542,Crystal Jade Singapore,425,Singapore,0,33
+543,Ricardo Cuisine,435,Canada,1,4
+544,Roy Choi,43,South Korea,1,35
+545,Burger King Nederland,95,USA,0,41
+546,Fabio Viviani,136,Italy,1,21
+547,Felicitas Pizarro,134,Argentina,1,0
+548,João Alcantara,94,Brazil,1,3
+549,foodpanda,295,Germany,0,14
+550,Magnum,303,England,0,10
+551,foodpanda,99,Germany,0,14
+552,Dunkin' Coffee,310,USA,0,41
+553,Chick-fil-A,483,USA,0,41
+554,Nando's,24,South Africa,0,34
+555,Domino's Pizza,137,USA,0,41
+556,foodpanda / hellofood,176,Germany,0,14
+557,foodpanda,393,Germany,0,14
+558,Olive Garden México,495,USA,0,41
+559,Hubert Keller,343,France,1,13
+560,Five Guys,489,USA,0,41
+561,Levi Eirinberg,375,USA,1,41
+562,Joanna 劉韋彤,92,China,1,5
+563,Hard Rock Cafe Ibiza,47,USA,0,41
+564,Pollo Campero Guatemala,447,Guatemala,0,16
+565,McDonald's,414,USA,0,41
+566,Delverde,22,Spain,0,36
+567,Kristen Kish,570,South Korea,1,35
+568,Angelo Sosa,283,USA,1,41
+569,KFC,125,USA,0,41
+570,McDonald's,292,USA,0,41
+571,Relais & Châteaux,72,France,0,13
+572,ChefAlexander,404,USA,1,41
+573,Wings,539,USA,0,41
+574,Ignacio Mattos,273,Uruguay,1,42
+575,John DeLucie,616,Italy,1,21
+576,McDonald's,448,USA,0,41
+577,Los Petersen Cocineros,354,Argentina,1,0
+578,Nando's,126,South Africa,0,34
+579,Germán Martitegui,469,Argentina,1,0
+580,Sam Choy,453,USA,1,41
+581,Magnum,503,England,0,10
+582,McDonald's,139,USA,0,41
+583,Roy's Restaurant,444,USA,0,41
+584,Carl's Jr.,371,USA,0,41
+585,Bonefish Grill,583,USA,0,41
+586,Domino's Australia,311,USA,0,41
+587,Christian Le Squer,224,France,1,13
+588,Olive Garden,71,USA,0,41
+589,Taco Bell Careers,57,USA,0,41
+590,Christophe Bacquie,403,France,1,13
+591,Hardee's Pakistan,431,Pakistan,0,30
+592,Chef Grace Ramirez,411,USA,1,41
+593,Yard House,49,USA,0,41
+594,Burger King México,492,USA,0,41
+595,タコベル ジャパン　Taco Bell Japan,115,USA,0,41
+596,JW Café - JW Marriott Hotel Hanoi,374,Vietnam,0,44
+597,Cocina familiar con Javier Romero,162,Spain,1,36
+598,ad hoc & addendum,86,USA,0,41
+599,Melissa King,419,China,1,5
+600,Charley's Crab,252,USA,0,41
+601,McDonald's,541,USA,0,41
+602,Magnum,336,England,0,10
+603,Gaston Acurio,529,Peru,1,31
+604,Carlos Bertolazzi,103,Brazil,1,3
+605,On The Border,278,USA,0,41
+606,David Chang,67,USA,1,41
+607,T-rex Cafe,520,USA,0,41
+608,Chef Natale Giunta,168,Italy,1,21
+609,Chef Kiran Jethwa,97,Kenya,1,23
+610,The French Laundry,578,Canada,0,4
+611,McDonald's,428,USA,0,41
+612,Nicko's Kitchen,261,England,1,10
+613,KFC,494,USA,0,41
+614,Chef Damaris Phillips,554,USA,1,41
+615,Jumia Food,163,Nigeria,0,29
+616,Luke Thomas,381,USA,1,41
+617,Clodagh McKenna,140,Ireland,1,19
+618,Chef Michelle Bernstein,157,USA,1,41
+619,SORTEDfood,114,England,0,10

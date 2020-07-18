@@ -1,0 +1,432 @@
+name,new_id,country,chef,country_id
+Josh Marks,386,USA,1,41
+Blue Ribbon Restaurants,473,USA,0,41
+Pat Neely,1,USA,1,41
+La Griglia,542,Italy,0,21
+Jose Garces,189,Ecuador,1,8
+Zac Kara,454,USA,1,41
+Big Fish Seafood Bistro,158,Hungary,0,17
+Tom Aikens,248,England,1,10
+The Habit Burger Grill,537,USA,0,41
+Chef Sheldon Simeon,293,USA,1,41
+Ochikeron,171,Japan,0,22
+Taco Bell,485,USA,0,41
+Christophe Michalak,258,France,1,13
+Peohe's,534,USA,0,41
+Destino Ibiza,500,Spain,0,36
+Chef Shirley Chung,34,USA,1,41
+Doug Adams,465,USA,1,41
+Angel Leon Gonzalez,511,Spain,1,36
+Ben Ebbrell - Sorted Chef,201,England,1,10
+Dick's Drive In Restaurant,188,USA,0,41
+John Whaite,440,England,1,10
+Andy Luotto,484,Italy,1,21
+Antonino Cannavacciuolo,240,Italy,1,21
+Charley's Crab,533,USA,0,41
+Anne-Sophie Pic,235,France,1,13
+Hilah Cooking,82,USA,0,41
+Chef Robert Irvine,35,England,1,10
+Nutella Cafe Chicago,19,USA,0,41
+Grand Concourse,154,USA,0,41
+Chef Lorena Garcia,148,Venezuela,1,43
+James Martin,599,England,1,10
+Nando's,230,South Africa,0,34
+Roy Yamaguchi,7,Japan,1,22
+Susan Feniger,576,USA,1,41
+Al Brown New Zealand Chef,594,New Zealand,1,28
+Veggie Grill,396,USA,0,41
+Franklin Becker,160,USA,1,41
+Éric Frechon,61,France,1,13
+The Edgy Veg,409,Canada,0,4
+Zoёs Kitchen,211,USA,0,41
+Chef Mark Garcia,434,USA,1,41
+Chef Claudia's Cocina,309,Mexico,1,26
+Alex Guarnaschelli,56,Israel,1,20
+Alex Guarnaschelli,56,USA,1,41
+Hari Ghotra,138,India,1,18
+Vicky Ratnani,202,India,1,18
+Boston Market,14,USA,0,41
+Bobby's Burger Palace,246,USA,0,41
+Chef Guy Martin,462,France,1,13
+Pablo Massey,290,Argentina,1,0
+McDonald's,518,USA,0,41
+Michael White,355,USA,0,41
+Lillie's Asian Cuisine,33,Japan,0,22
+Aquarium Restaurant - Nashville,496,USA,0,41
+Manu Feildel,62,France,1,13
+Camille Becerra,325,USA,1,41
+Whataburger,153,USA,0,41
+Big Fernand,10,France,1,13
+Karlos Arguiñano,460,Spain,1,36
+Karen Martini,282,Australia,1,1
+Ogro Jimmy,567,Brazil,1,3
+Chili's Tunisie,304,Tunisia,0,40
+Carrabba's Italian Grill,339,Italy,0,21
+Susur Lee,320,Canada,1,4
+Cook with Chef Duminda,464,Australia,1,1
+Roblé,156,USA,1,41
+Brooke Williamson,155,USA,1,41
+René Redzepi,505,Denmark,1,7
+Cadillac Bar Kemah,209,USA,0,41
+Fast Ed,236,Australia,1,1
+Cesare Casella,324,Italy,1,21
+Gandy Dancer Saloon/Oyster Bar,78,USA,0,41
+Hardee's,226,USA,0,41
+Peter Kuruvita,433,Australia,1,1
+Chef Francois Payard,170,France,1,13
+PROPERCORN,468,USA,0,41
+Marc Veyrat,472,France,1,13
+Simon Bryant,392,Australia,1,1
+Massimo Mele,193,Italy,1,21
+Chef Sam Talbot,544,USA,1,41
+José Andrés,9,Spain,1,36
+Opry City Stage,308,USA,0,41
+Cucina by Wolfgang Puck,370,USA,0,41
+Iginio Massari,344,Italy,1,21
+Thomas Keller,588,USA,1,41
+Emma Frisch,463,USA,1,41
+El Torito,215,Mexico,0,26
+Chef Marc Murphy,601,USA,1,41
+Dina Nikolaou,481,Greece,1,15
+Acapulco,204,USA,0,41
+Pollo Campero,606,El Salvador,0,9
+Michael Lomonaco,366,USA,1,41
+The Tuscan Gun,322,USA,0,41
+Burger Lounge,379,USA,0,41
+Pasqualino Barbasso,608,Italy,1,21
+Jumia Food,429,Nigeria,0,29
+Alfred Portale,242,USA,1,41
+Magnum,416,England,0,10
+Alberto Chicote,337,Spain,1,36
+Lee Anne Wong,0,USA,1,41
+Paul Qui,207,USA,1,41
+"Subway, Cayman Islands",234,USA,0,41
+Chef Aaron McCargo Jr,615,USA,1,41
+Chef Carla Hall,350,USA,1,41
+Gary Mehigan,169,Australia,1,1
+Leslie Gilliams,159,USA,1,41
+Cook with Amber,456,USA,1,41
+Sang Yoon,342,South Korea,1,35
+KFC,555,USA,0,41
+Chef Richard Sandoval,593,Mexico,1,26
+Christian Bau,450,Germany,1,14
+Aliya LeeKong,482,USA,1,41
+Chef Ben Ford,361,USA,1,41
+Taste of London,286,England,0,10
+Cristian D'Elia,299,Italy,1,21
+Guillaume Gomez,517,France,1,13
+Christine Ha,458,USA,1,41
+Chef Daniel Boulud,70,France,1,13
+Per Se,46,USA,0,41
+Niko Romito,333,Italy,1,21
+Marc Forgione,257,USA,1,41
+Noëmie Honiat Top Chef,443,France,1,13
+Princi,417,Italy,0,21
+Papacho's,412,Peru,0,31
+Hugh Acheson,128,Canada,1,4
+Alex Atala,146,Brazil,1,3
+RIBS - True American Barbecue,582,USA,0,41
+Chef Sue Zemanick,208,USA,1,41
+Chef Carlo Cracco,3,Italy,1,21
+Duff Goldman,312,USA,1,41
+Dani García,498,Spain,1,36
+Brew Bistro and Lounge,561,Kenya,0,23
+Maneet Chauhan,549,India,1,18
+Mei Lin,254,USA,1,41
+Chetna Makan,418,India,1,18
+Simon Gault,121,New Zealand,1,28
+Tom Colicchio,288,USA,1,41
+Chef David Burke,116,USA,1,41
+Chef Cynthia Louise,53,Australia,1,1
+Eddie V's Prime Seafood,196,USA,0,41
+Daniel Humm,107,Switzerland,1,38
+Scott Conant,90,USA,1,41
+Chef Jamie DeRosa,604,USA,1,41
+Cindy Pawlcyn,281,USA,1,41
+Pierre Gagnaire,376,France,1,13
+Outback Steakhouse,305,USA,0,41
+Chef Hirohiko Shoda,40,Japan,1,22
+Chef Andrew Gruel,436,USA,1,41
+Donatella Arpaia,439,USA,1,41
+foodpanda,605,Germany,0,14
+Dean Fearing,23,USA,1,41
+Chef Charlie Palmer,275,USA,1,41
+Emmi CAFFÈ LATTE,461,Switzerland,0,38
+Julia Child,584,USA,1,41
+Geoffrey Zakarian,87,USA,1,41
+YANNICK ALLENO OFFICIEL,552,France,1,13
+Narda Lepes,253,Argentina,1,0
+Quique Dacosta,474,Spain,1,36
+Tom Douglas Restaurants,268,USA,1,41
+Johnny Prep,197,USA,1,41
+Mathieu Pacaud,401,France,1,13
+Mirko Ronzoni,185,Italy,1,21
+Anjali Pathak,80,India,1,18
+Second Floor Cafe 貳樓餐飲,402,Taiwan,0,39
+Chef G. Garvin,302,USA,1,41
+Chef Maeve Rochford,557,USA,1,41
+Manjula's Kitchen - Indian Vegetarian Recipes,166,India,0,18
+Enrique Olvera,323,Mexico,1,26
+Valentin Neraudeau,388,France,1,13
+Chevys Fresh Mex,540,USA,0,41
+Nyesha Arrington,250,USA,0,41
+Luna Grill,96,USA,0,41
+Chef Nina Compton,373,USA,1,41
+Big Fish Seafood Bistro,437,Hungary,0,17
+Chef Rubio,575,Italy,1,21
+Stephanie Izard,510,USA,1,41
+Kevin Dundon,581,Ireland,1,19
+Eduardo Palazuelos,610,Mexico,1,26
+Harlem EatUp,413,USA,0,41
+Gavin Kaysen,205,USA,1,41
+Francesco Sole,272,Italy,1,21
+Raymond Blanc,269,France,1,13
+Michel Nischan,289,USA,1,41
+Cuoco Filippo La Mantia,65,Italy,0,21
+Colin Fassnidge,364,Ireland,1,19
+Chuck Hughes,345,Canada,1,4
+Amy Thielen,102,USA,1,41
+Thierry Rautureau,519,France,1,13
+Jean-François Piège     -      Page Officielle,363,France,1,13
+Chef Diego Lozano,614,Brazil,1,3
+Jacques Pépin,317,France,1,13
+Donato De Santis,563,Italy,1,21
+Juliana Lopez May,104,Argentina,1,0
+Robin Miller,611,USA,1,41
+Cadillac Bar Houston,180,USA,0,41
+Chef Derrick Fox,479,USA,1,41
+Dan Kluger,68,USA,1,41
+Chef Ana Paula,112,Mexico,1,26
+Bryce Shuman,550,USA,1,41
+Eva Arguiñano,587,Spain,1,36
+Gandy Dancer,210,USA,0,41
+Alex French Guy Cooking,251,France,1,13
+Marcus Samuelsson,217,Ethiopia,1,11
+Tom's Kitchen,499,England,0,10
+Dairy Queen,326,USA,0,41
+Roxanne Spruance,569,USA,1,41
+hellofood,301,Germany,0,14
+Hearth,359,USA,0,41
+Elizabeth Karmel,603,USA,1,41
+Eddie Jackson - FIT CHEF EDDIE,321,USA,1,41
+Subway,618,USA,0,41
+Douglas Keane,59,USA,1,41
+Martín Berasategui,88,Spain,1,36
+Shane Delia,285,Australia,1,1
+Katie Pix,110,England,1,10
+Danny Smiles,391,Canada,1,4
+Ranveer Brar,426,India,1,18
+Diego Guerrero,64,Spain,1,36
+翠華餐廳 Tsui Wah Restaurant,190,China,0,5
+Five Guys,589,USA,0,41
+Samin Nosrat,617,USA,1,41
+Morton's The Steakhouse,129,USA,0,41
+River Crab Blue Water Inn,55,USA,0,41
+George Pagonis,4,USA,1,41
+Steve Konopelski,394,USA,1,41
+Bruno Oteiza,571,Spain,1,36
+Nikki Dinki,451,USA,1,41
+Virginia Willis,446,USA,1,41
+Chef Alex Levin,607,USA,1,41
+Aarón Sánchez,597,USA,1,41
+Dan Steph & Emmy,341,USA,1,41
+Chef Elizabeth Falkner,198,USA,1,41
+Ernst Knam,17,Germany,1,14
+Guy Savoy,244,France,0,13
+Chef Clément,459,France,1,13
+Christina Tosi,15,USA,1,41
+Paul Hollywood,408,England,1,10
+Xi'an Famous Foods 西安名吃,167,USA,0,41
+Lío,513,Spain,0,36
+Guga Rocha,93,Brazil,1,3
+Jock Zonfrillo,228,Scotland,1,32
+Chef Carmen Gonzalez,239,USA,1,41
+Suzanne Goin,509,USA,1,41
+Food Busker,184,England,0,10
+Crepes & Waffles,91,Colombia,0,6
+Matthew Kenney,122,USA,1,41
+Ken Oringer,351,USA,1,41
+Gemma Stafford,407,Ireland,1,19
+Buddy Valastro,120,USA,1,41
+Bahama Breeze Island Grille,29,USA,0,41
+Marcel Vigneron,445,USA,1,41
+Krispy Kreme UK,200,USA,0,41
+Kunal Kapur,300,India,1,18
+Gregory Gourdet,83,USA,1,41
+Ben Sargent & Dr. Klaw,2,USA,0,41
+Martha Collison,506,England,1,10
+Francis Mallmann,225,Argentina,1,0
+Cat Cora,60,USA,1,41
+"Mary Nolan, Bon Appétit Executive Chef",514,USA,1,41
+Bobby Flay,182,USA,1,41
+Taste Of Paris Official,368,France,0,13
+RED Sushi and Hibachi Grill,490,USA,0,41
+Bubba Gump Shrimp Co.,331,USA,0,41
+Seamus Mullen,238,USA,1,41
+Blue Ribbon Fried Chicken,206,USA,0,41
+Famous Dave's Bar-B-Que of America,294,USA,0,41
+達美樂披薩,101,USA,0,41
+Chef Jamie Gwen,58,England,1,10
+Chef Marcela Valladolid,175,USA,1,41
+Chef Rick Tramonto,277,USA,1,41
+Chef Todd Mohr,406,USA,1,41
+Franklin Barbecue,233,USA,0,41
+Spago Las Vegas,135,USA,0,41
+Ludo Lefebvre,245,France,1,13
+Donal Skehan,143,Ireland,1,19
+Anis Nabilah,600,Malasia,1,25
+Bradley Ogden,536,USA,1,41
+Chef Michael Ferraro,383,USA,1,41
+Tim Love,130,USA,1,41
+Audra Morrice,109,Australia,1,1
+Chef Kent Graham,89,USA,1,41
+Santiago Giorgini,232,Argentina,1,0
+CAKE-BOY,560,England,0,10
+Carl's Jr. NZ,192,USA,0,41
+Rachel Allen,172,Ireland,1,19
+Pierre Sang Boyer Officiel,470,France,1,13
+Lindsay Ann Bakes,133,USA,1,41
+Anne Burrell,151,USA,1,41
+Chope,390,Singapore,0,33
+Steak 'n Shake,475,USA,0,41
+Chef Michael Smith,384,Canada,1,4
+Maru Botana,81,Argentina,1,0
+Red Lobster México,178,Mexico,0,26
+FONDA MEXICANA,367,Mexico,0,26
+Chef Jennifer Carroll,221,USA,1,41
+Jimmy John's,330,USA,0,41
+Vegan Black Metal Chef,195,USA,1,41
+Celler de Can Roca,69,Spain,0,36
+Juan Mari Arzak (Página oficial),385,Spain,1,36
+Dining with Flynn,131,USA,1,41
+Chef Adrianne,378,USA,1,41
+Chef Rick Moonen,558,USA,1,41
+Dunkin' Donuts,249,USA,0,41
+Chef Dana Cohen HK,260,USA,1,41
+Madison Cowan,132,England,1,10
+Puesto,77,Mexico,0,26
+Justin Warner,111,USA,1,41
+Eckart Witzigmann,13,Austria,1,2
+My Cupcake Addiction,397,England,0,10
+Matt Moran,41,Australia,1,1
+Frantzén,592,Sweden,0,37
+Telepizza Guatemala,318,Spain,0,36
+Jehangir,161,India,1,18
+Johnny Iuzzini,372,USA,1,41
+Pedro Lambertini,493,Argentina,1,0
+Dale Talde,455,USA,1,41
+Amandine Chaignot,262,France,1,13
+Graham Elliot,432,USA,1,41
+Skinny Chef,399,England,0,10
+Chef Rusty Hamlin,177,USA,1,41
+Domino's Pizza,545,USA,0,41
+Chef Mary Sue Milliken,39,USA,1,41
+Alessandro Borghese,377,Italy,1,21
+Chef Jet Tila,229,USA,1,41
+Grotto,223,Israel,0,20
+Seasons 52,512,USA,0,41
+Norbert Tarayre,590,France,1,13
+Chef Jimmy Boswell,553,New Zealand,1,28
+Relais & Châteaux,530,France,0,13
+Four Seasons Hotels and Resorts,442,Canada,0,4
+Sanjeev Kapoor,32,India,1,18
+Chef Billy Parisi,50,USA,1,41
+Ravintola Salve,36,Finland,0,12
+Claire Robinson,271,USA,1,41
+Paul Bocuse,526,France,1,13
+UMass Dining,314,USA,0,41
+Chef Brian Duffy,243,USA,1,41
+Barbie Marshall,298,USA,1,41
+Kirti Bhoutika,44,India,1,18
+DedeMed,422,Lebanon,0,24
+Spike Mendelsohn,531,USA,1,41
+Outlander Kitchen,564,Canada,0,4
+Wolfgang Puck,227,Austria,1,2
+Russell Jackson,37,USA,1,41
+D'O - Davide Oldani,577,Italy,1,21
+Chef Casey Thompson,54,USA,1,41
+도미노피자(Dominostory),124,USA,0,41
+Bruno Ménard,181,France,1,13
+Dean Sheremet,338,USA,1,41
+Emily Ellyn,389,USA,1,41
+Hakim Chajar,203,Morocco,1,27
+'Wichcraft,528,USA,0,41
+Gino D'Acampo,346,Italy,1,21
+Noma,410,Denmark,0,7
+Alain Ducasse,352,France,1,13
+Texas Roadhouse,76,USA,0,41
+Logan Junior Chef,265,USA,1,41
+MASAの料理ABC,186,Japan,0,22
+Chili's Grill & Bar,8,Mexico,0,26
+Josh Elkin,580,Canada,1,4
+Bruno Barbieri,538,Italy,1,21
+NishaMadhulika,18,India,1,18
+Christophe Adam,476,France,1,13
+Chart House,214,USA,0,41
+Chef Ben Churchill,291,England,1,10
+Sonia Peronaci,356,Italy,1,21
+Crystal Jade Palace - JW Marriott Hotel Hanoi,231,Vietnam,1,44
+Meriwether's,452,USA,0,41
+Harold Dieterle,349,USA,1,41
+José Santaella,568,Spain,1,36
+Monti Carlo,360,Italy,0,21
+Maria Loi,20,Greece,1,15
+Red Robin Gourmet Burgers,247,USA,0,41
+Pescaria,405,Italy,0,21
+Eric Ripert,340,France,1,13
+Chef Pete Evans,449,Austria,1,2
+Saransh Goila,183,India,1,18
+Crystal Jade Singapore,425,Singapore,0,33
+Ricardo Cuisine,435,Canada,1,4
+Roy Choi,43,South Korea,1,35
+Fabio Viviani,136,Italy,1,21
+Felicitas Pizarro,134,Argentina,1,0
+João Alcantara,94,Brazil,1,3
+Dunkin' Coffee,310,USA,0,41
+Chick-fil-A,483,USA,0,41
+Olive Garden México,495,USA,0,41
+Hubert Keller,343,France,1,13
+Five Guys,489,USA,0,41
+Levi Eirinberg,375,USA,1,41
+Joanna 劉韋彤,92,China,1,5
+Hard Rock Cafe Ibiza,47,USA,0,41
+麥當勞,414,USA,0,41
+Kristen Kish,570,South Korea,1,35
+Angelo Sosa,283,USA,1,41
+Relais & Châteaux,72,France,0,13
+ChefAlexander,404,USA,1,41
+Wings,539,USA,0,41
+Ignacio Mattos,273,Uruguay,1,42
+John DeLucie,616,Italy,1,21
+Los Petersen Cocineros,354,Argentina,1,0
+Germán Martitegui,469,Argentina,1,0
+Sam Choy,453,USA,1,41
+Roy's Restaurant,444,USA,0,41
+Carl's Jr.,371,USA,0,41
+Bonefish Grill,583,USA,0,41
+Christian Le Squer,224,France,1,13
+Olive Garden,71,USA,0,41
+Christophe Bacquie,403,France,1,13
+Hardee's Pakistan,431,Pakistan,0,30
+Chef Grace Ramirez,411,USA,1,41
+Yard House,49,USA,0,41
+Burger King,492,USA,0,41
+JW Café - JW Marriott Hotel Hanoi,374,Vietnam,0,44
+Cocina familiar con Javier Romero,162,Spain,1,36
+ad hoc & addendum,86,USA,0,41
+Melissa King,419,China,1,5
+Charley's Crab,252,USA,0,41
+Gaston Acurio,529,Peru,1,31
+Carlos Bertolazzi,103,Brazil,1,3
+On The Border,278,USA,0,41
+David Chang,67,USA,1,41
+T-rex Cafe,520,USA,0,41
+Chef Natale Giunta,168,Italy,1,21
+Chef Kiran Jethwa,97,Kenya,1,23
+The French Laundry,578,Canada,0,4
+Nicko's Kitchen,261,England,1,10
+Chef Damaris Phillips,554,USA,1,41
+Luke Thomas,381,USA,1,41
+Clodagh McKenna,140,Ireland,1,19
+Chef Michelle Bernstein,157,USA,1,41
+SORTEDfood,114,England,0,10

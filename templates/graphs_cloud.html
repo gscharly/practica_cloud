@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Facebook Food Pages</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+</head>
+
+<style>
+    body {
+        font-family: sans-serif;
+    }
+
+    .links line {
+      stroke: #ffffff;
+      stroke-opacity: 0.6;
+    }
+
+    .nodes circle {
+      stroke: #fff;
+      stroke-width: 1.5px;
+    }
+
+    text {
+      font-family: sans-serif;
+      font-size: 10px;
+    }
+
+    div.tooltip {
+        position: absolute;
+        text-align: center;
+        padding: 2px;
+        font: 20px sans-serif;
+        border: 0px;
+        border-radius: 8px;
+        pointer-events: none;
+    }
+
+    .svg-container {
+        display: inline-block;
+        position: relative;
+        width: 100%;
+        padding-bottom: 70%;
+        vertical-align: top;
+        overflow: hidden;
+        text-align: center;
+    }
+    .svg-content {
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    #mainDiv {
+        background: #5D5C61;
+        color: white
+    }
+
+
+</style>
+
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
+  <span class="navbar-brand">Análisis de grafos y redes sociales</span>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <button onclick="showHideContent('intro')" class="btn btn-dark">Intro <span class="sr-only">(current)</span></button>
+      </li>
+      <li class="nav-item">
+        <button onclick="showHideContent('visualizations')" class="btn btn-dark">Visualizaciones</button>
+      </li>
+      <li class="nav-item">
+        <button onclick="showHideContent('graphConfiguration')" class="btn btn-dark">Configura el grafo</button>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+	<div id="mainDiv" class="container-fluid">
+
+        <div class="row">
+            <div class="col-12 col-lg-4">
+
+                <div id="intro">
+                    <br>
+                    <p>Los datos elegidos para la práctica corresponden a páginas de comida de Facebook.</p>
+                    <p>
+                        Cada nodo representa una página de una cadena de comida, un restaurante o un chef.
+                        Para que exista una relación, ambas páginas deben darse me gusta entre sí. Cada nodo está representado
+                        por un nombre y por un país, que corresponde al país de origen de la marca o el chef.
+                    </p>
+
+                    <p>
+                        Se proponen varias visualizaciones desde distintos puntos de vista, explotando distintas características del grafo. En esta primera visualización se observan los
+                        datos originales, coloreados en función del tipo de página (restaurante/cadena o chef). Lo primero que se puede apreciar es que los chefs (azul oscuro) están bastante
+                        relacionados entre sí (grupo grande del centro), mientras que hay grupos pequeños de cadenas que se siguen entre sí. Si se atienden a los grupos alejados de cadenas,
+                        podemos ver que muchos son de la misma cadena en distintos países (por ejemplo, hay muchos nodos de McDonalds). Es evidente que estas páginas serán más propensas a seguirse
+                        entre sí, y puede ser interesante unificar los nodos que pertenecen a una misma cadena para una mejor comparación. Para ver esta y otras visualizaciones, pulsa
+                        <button onclick="showHideContent('visualizations')" class="btn btn-light">aquí </button> o en el
+                        panel de navegación (Visualizaciones).
+                    </p>
+
+                    <p>
+                        El grafo es dinámico, por lo que se puede hacer zoom, ajustar a la pantalla, moverlo y desplazar los nodos.
+                    </p>
+
+                    <p>Además, se han incluido en la pestaña <button onclick="showHideContent('graphConfiguration')" class="btn btn-light">Configura el grafo </button> distintas opciones
+                    para pintar el grafo a gusto del usuario, ya que dependiendo de la visualización puede ser útil modificar los parámetros por defecto del layout del grafo.
+                    </p>
+                </div>
+
+                <div id="visualizations" style="display: none">
+                    <br>
+
+                    <p>En este apartado, se proponen distintas visualizaciones del grafo. Todas las opciones se pueden combinar pulsando en los distintos botones. Se recomienda configurar
+                    el grafo en cada visualización para poner atención en distintas partes del grafo.
+                    </p>
+
+                    <p>El tamaño de los nodos se puede visualizar en función del <button class="btn btn-light btn-xs" id="loadDegreeGraph">grado</button> o de la métrica
+                    de centralidad de <button class="btn btn-light btn-xs" id="loadBetGraph">betweenness</button>. Si atendemos al grado, vemos que en general los nodos de chefs tienen más conexiones
+                        que las cadenas, indicando la popuralidad de ciertos nodos. Fijándonos en el betweenness, observamos que hay nodos que claramente concentran mayor número de caminos
+                    </p>
+
+                    <p>El color de los nodos se puede visualizar en función del <button class="btn btn-light btn-xs" id="colorCountry">país</button> de origen de la cadena/chef o de un
+                    algoritmo de detección de <button class="btn btn-light btn-xs" id="colorLabel">comunidades</button>. Si se colorea por país, se puede observar que la mayoría de nodos pertenecen a Estados Unidos, y que determinados nodos del mismo país
+                    se suelen agrupar. Este ejemplo resulta muy claro cuando miramos a los nodos de chefs italianos o franceses, con un estilo de comida probablemente diferente a los americanos. Por otro
+                        lado, parece que hay comunidades de nodos que se establecen de manera directa, ya sea por el país (por ejemplo los chefs argentinos constituyen una comunidad), la cadena o incluso el tipo
+                        de comida (restaurantes de marisco y pescado).
+                    </p>
+
+                    <p>
+                        Los nodos que corresponden a la misma cadena pero con distinta página en Facebook se pueden agrupar pulsando <button class="btn btn-light btn-xs" id="loadUnique">aquí</button>
+                        Esto nos permite observar mejor las relaciones entre nodos únicos, viendo que la mayoria de páginas corresponden a chefs, y que se forman grupos bastante claros, además de
+                        identificar más rápidamente nodos importantes según las métricas de centralidad. Para volver a desagrupar, pulse <button class="btn btn-light btn-xs" id="loadBasic">aquí</button>
+                    </p>
+
+
+
+                </div>
+
+                <div id="graphConfiguration" style="display: none">
+                    <br>
+                    <p>Modifica el grafo a tu gusto. Las opciones que se proponen tienen por objetivo obtener una mejor visualización del mismo, separando o juntando nodos, ajustando la
+                    distancia entre enlaces... Cada opción tiene una nota informativa acerca de sus efectos.</p>
+                <div class="inputs">
+                    <div class="row">
+                        <div class="col-1 col-lg-6">
+                            <p class="btn btn-light" data-toggle="tooltip" data-placement="top" title="A mayor valor, más separación entre nodos">Distancia entre enlaces</p>
+                            <p id="linkDistanceText">10</p>
+                            <input id="linkDistanceInput" type="range" min="1" max="100" value="10" step="1">
+                        </div>
+                        <div class="col-1 col-lg-6">
+                            <p class="btn btn-light" data-toggle="tooltip" data-placement="top" title="Con valores más negativos, los nodos se repelerán">Atracción entre nodos</p>
+                            <p id="chargeStrengthText">-3</p>
+                            <input id="chargeStrengthInput" type="range" min="-50" max="-1" value="-3" step="1">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-1 col-lg-6">
+                            <p class="btn btn-light" data-toggle="tooltip" data-placement="top" title="A mayor valor, más se podrán separar los nodos">Distancia máxima</p>
+                            <p id="chargeMaxDistanceText">250</p>
+                            <input id="chargeMaxDistanceInput" type="range" min="1" max="500" value="250" step="1">
+                        </div>
+                        <div class="col-1 col-lg-6">
+                            <p class="btn btn-light" data-toggle="tooltip" data-placement="top" title="Controla el radio de separación entre nodos">Radio de colisión</p>
+                            <p id="collideRadiusText">2.5</p>
+                            <input id="collideRadiusInput" type="range" min="1" max="20" value="2.5" step="0.5">
+                        </div>
+                    </div>
+                </div>
+                <button id="restartForceButton" class="btn btn-light">Restart</button>
+                </div>
+
+
+            </div>
+
+            <div class="col-12 col-lg-8" >
+                <div id="graph-container" class="svg-container">
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script>
+        // Global variables
+        var width = 900,
+            height = 620,
+            margin = { top: 100, right: 50, bottom: 150, left: 125},
+            w = width - margin.left - margin.right,
+            h = height - margin.top - margin.bottom;
+        var maxDistance = 250;
+        var strength = -3;
+        var linkDistance = 10;
+        var radiusCollide = 2.5;
+        var color = d3.scaleOrdinal(d3.schemeCategory20);
+        var minSizeCircle = 2.5;
+        var maxSizeCircle = 50;
+        //deberia hacerse en funcion de los datos
+        var sizeScale = d3.scaleLinear().domain([0, 0.3]).range([minSizeCircle, maxSizeCircle]);
+        var path = "../json/food_graph_countries_p1.json";
+        var var2color = "default";
+        var nodeDegree = "default";
+        var defaultSize = 2.5;
+
+        // tooltip
+        var div = d3.select("body").append("div")
+        .attr("class", "tooltip")
+        .style("opacity", 0);
+
+
+        //svg
+        var svg = d3.select("div#graph-container")
+                    .append("svg")
+                    .attr("preserveAspectRatio", "xMinYMin meet")
+                    .attr("viewBox", "0 0 "+width+" "+height+"")
+                    .classed("svg-content", true)
+                    .call(d3.zoom().on("zoom", function () {
+                        svg.attr("transform", d3.event.transform)
+                    }));
+
+        // graph forces
+        let linkForce = d3.forceLink().id(function(d) { return d.id; }).distance(linkDistance);
+        let chargeForce = d3.forceManyBody().strength(strength).distanceMax(maxDistance);
+        let collideForce = d3.forceCollide().radius(radiusCollide);
+        let centerForce = d3.forceCenter(w / 2, h / 2);
+        let simulation = d3.forceSimulation()
+            .force("link", linkForce)
+            .force("charge", chargeForce)
+            .force("collide", collideForce)
+            .force("center", centerForce);
+
+        function draw_graph(path, degree, var2color, showImages = false) {
+            d3.json(path, function (error, graph) {
+                if (error) throw error;
+
+                svg.selectAll("*").remove();
+                var pattern_def = svg.append("defs");
+                var idImage=1;
+                var g = svg.append("g")
+                    .attr("class", "everything");
+
+                // create links and nodes
+                var link = g.append("g")
+                    .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+                    .attr("class", "links")
+                    .selectAll("line")
+                    .data(graph.links)
+                    .enter().append("line");
+
+                var node = g.append("g")
+                    .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+                    .attr("class", "nodes")
+                    .selectAll("g")
+                    .data(graph.nodes)
+                    .enter().append("g");
+
+                var circles = node.append("circle")
+                    .attr("r", function (d) {
+                        if (degree != "default"){
+                            return sizeScale(d[degree])
+                        }
+                        else{
+                            return defaultSize
+                        }
+
+                    })
+                    .attr("fill", function (d) {
+                        if (d['image'] && showImages) {
+                            pattern_def.append("pattern")
+                                .attr("id", "image-" + idImage)
+                                .attr("patternContentUnits", "objectBoundingBox")
+                                .attr("width", "100%")
+                                .attr("height", "100%")
+                                .attr("viewBox", "0 0 1 1");
+
+                            d3.select("#" + "image-" + idImage)
+                                .append("image")
+                                .attr("xlink:href", d.image)
+                                .attr("x", 0)
+                                .attr("y", 0)
+                                .attr("width", "1")
+                                .attr("height", "1")
+                                .attr("preserveAspectRatio", "none");
+                            var returnVal = "url(#image-" + idImage + ")";
+                            idImage++;
+                            return returnVal;
+                        }
+                        else if (var2color == 'country') {
+                            return color(d.country);
+                        } else if (var2color == 'label') {
+                            return color(d.label)
+                        } else if (var2color == 'greedy') {
+                            return color(d.greedy)
+                        }
+                        else{
+                            return color(d.chef)
+                        }
+
+                    })
+                    .on("mouseover", function (d) {
+                        div.transition()
+                            .duration(200)
+                            .style("opacity", .9);
+                        div.html("Name: " + d['name'] + "<br />" + "Country: " + d['country'])
+                            .style("left", (d3.event.pageX) + "px")
+                            .style("top", (d3.event.pageY - 28) + "px")
+                            .style('background', color(d.country));
+                    })
+                    .on("mouseout", function (d) {
+                        div.transition()
+                            .duration(500)
+                            .style("opacity", 0);
+                    });
+
+                if (showImages){
+                    var setEvents = node
+                    .on( 'mouseenter', function() {
+                        // select element in current context
+                        d3.select( this ).raise().select('circle')
+                            .transition()
+                            .attr("r", 50);
+                    })
+                    // set back
+                   .on('mouseleave', function() {
+                        d3.select( this ).select('circle')
+                            .transition()
+                            .attr("r", function(d) {
+                                if (degree != "default"){
+                                    return sizeScale(d[degree])
+                                }
+                                else{
+                                    return defaultSize
+                                }
+                            });
+                   });
+                }
+
+
+                simulation
+                    .nodes(graph.nodes)
+                    .on("tick", ticked);
+
+                simulation.force("link")
+                    .links(graph.links);
+
+                function ticked() {
+                    link
+                        .attr("x1", function (d) {
+                            return d.source.x;
+                        })
+                        .attr("y1", function (d) {
+                            return d.source.y;
+                        })
+                        .attr("x2", function (d) {
+                            return d.target.x;
+                        })
+                        .attr("y2", function (d) {
+                            return d.target.y;
+                        });
+
+                    node
+                        .attr("transform", function (d) {
+                            return "translate(" + d.x + "," + d.y + ")";
+                        })
+                }
+
+                var drag_handler = d3.drag()
+                    .on("start", drag_start)
+                    .on("drag", drag_drag)
+                    .on("end", drag_end);
+
+                drag_handler(node);
+
+                function drag_start(d) {
+                    if (!d3.event.active) simulation.alphaTarget(0.3).restart();
+                    d.fx = d.x;
+                    d.fy = d.y;
+                }
+
+                function drag_drag(d) {
+                    d.fx = d3.event.x;
+                    d.fy = d3.event.y;
+                }
+
+                function drag_end(d) {
+                    if (!d3.event.active) simulation.alphaTarget(0);
+                    d.fx = null;
+                    d.fy = null;
+                }
+
+                // zoom
+                var zoom_handler = d3.zoom()
+                    .on("zoom", zoom_actions);
+                zoom_handler(svg);
+
+                //Zoom functions
+                function zoom_actions() {
+                    g.attr("transform", d3.event.transform)
+                }
+            })
+        }
+
+        draw_graph(path, nodeDegree, var2color);
+
+
+        // Carga grado
+        d3.select('#loadDegreeGraph')
+            .on('click', function(){
+                nodeDegree = "degree";
+                console.log(path, nodeDegree, var2color);
+                collideForce.radius(radiusCollide);
+                draw_graph(path, nodeDegree, var2color);
+                simulation.alpha(0.5).restart();
+            }, false);
+
+
+        // Carga bet
+        d3.select('#loadBetGraph')
+            .on('click', function(){
+                nodeDegree = "betweenness";
+                console.log(path, nodeDegree, var2color);
+                collideForce.radius(radiusCollide);
+                draw_graph(path, nodeDegree, var2color);
+                simulation.alpha(0.5).restart();
+            }, false);
+
+        // Carga marcas
+        d3.select('#loadUnique')
+            .on('click', function(){
+                path = "../json/food_graph_final_p1.json";
+                console.log(path, nodeDegree, var2color);
+                collideForce.radius(radiusCollide);
+                draw_graph(path, nodeDegree, var2color);
+                simulation.alpha(0.5).restart();
+            }, false);
+
+
+        // Carga basico
+        d3.select('#loadBasic')
+            .on('click', function() {
+                    path = "../json/food_graph_countries_p1.json";
+                    console.log(path, nodeDegree, var2color);
+                    collideForce.radius(radiusCollide);
+                    draw_graph(path, nodeDegree, var2color);
+                    simulation.alpha(0.5).restart();
+                }
+                , false);
+
+        // Color label
+        d3.select('#colorLabel')
+            .on('click', function() {
+                    var2color = "label";
+                    console.log(path, nodeDegree, var2color);
+                    collideForce.radius(radiusCollide);
+                    draw_graph(path, nodeDegree, var2color);
+                    simulation.alpha(0.5).restart();
+                }
+                , false);
+
+        // Color country
+        d3.select('#colorCountry')
+            .on('click', function() {
+                    var2color = "country";
+                    console.log(path, nodeDegree, var2color);
+                    collideForce.radius(radiusCollide);
+                    draw_graph(path, nodeDegree, var2color);
+                    simulation.alpha(0.5).restart();
+                }
+                , false);
+
+        // Inputs
+        d3.select('#linkDistanceInput')
+          .on('click', function() {
+              d3.select("#linkDistanceText").text(this.value);
+            linkForce.distance(this.value);
+            simulation.alpha(0.5).restart();  // Re-heat the simulation
+          }, false);
+
+        d3.select('#chargeStrengthInput')
+          .on('click', function() {
+              d3.select("#chargeStrengthText").text(this.value);
+            chargeForce.strength(this.value);
+            simulation.alpha(0.5).restart();  // Re-heat the simulation
+          }, false);
+
+        d3.select('#chargeMaxDistanceInput')
+          .on('click', function() {
+              d3.select("#chargeMaxDistanceText").text(this.value);
+            chargeForce.distanceMax(this.value);
+            simulation.alpha(0.5).restart();  // Re-heat the simulation
+          }, false);
+
+        d3.select('#collideRadiusInput')
+          .on('click', function() {
+              d3.select("#collideRadiusText").text(this.value);
+            collideForce.radius(this.value);
+            simulation.alpha(0.5).restart();  // Re-heat the simulation
+          }, false);
+
+        d3.select('#restartForceButton')
+          .on('click', function() {
+              //inputs: no funciona, habria que hacerlo con d3
+              //d3.select("#linkDistanceInput").value(linkDistance);
+              //d3.select("#chargeStrengthInput").value = strength;
+              //d3.select("#chargeMaxDistanceInput").value = maxDistance;
+              //d3.select("#collideRadiusInput").value = radiusCollide;
+              // texts
+              d3.select("#linkDistanceText").text(linkDistance);
+              d3.select("#chargeStrengthText").text(strength);
+              d3.select("#chargeMaxDistanceText").text(maxDistance);
+              d3.select("#collideRadiusText").text(radiusCollide);
+              //forces
+              linkForce.distance(linkDistance);
+              chargeForce.strength(strength);
+              chargeForce.distanceMax(maxDistance);
+              collideForce.radius(radiusCollide);
+              simulation.alpha(0.5).restart();  // Re-heat the simulation
+          }, false);
+
+
+    </script>
+    <script>
+        var ids = ["intro", "visualizations", "graphConfiguration"];
+        function showHideContent(divId) {
+          var x = document.getElementById(divId);
+          // find id and remove ir
+          var ix =  ids.indexOf(divId);
+          if (ix > -1) {
+           ids.splice(ix, 1);
+         }
+
+          if (x.style.display === "none") {
+            x.style.display = "block";
+            for (var i=0; i<ids.length; i++){
+                var div = document.getElementById(ids[i]);
+                div.style.display = "none";
+            }
+            ids.push(divId);
+          } else {
+            x.style.display = "none";
+
+          }
+    }
+
+    </script>
+</body>
+</html>
