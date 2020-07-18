@@ -15,5 +15,3 @@ services:
     image: gscharly94/graph-web
     volumes:
       - .:/todo
-  db:
-    image: mongo:3.0.2
