@@ -1,0 +1,20 @@
+version: '3.8'
+services:
+
+  graph:
+    image: gscharly94/graph-processing
+    depends_on:
+      - db
+  web:
+    image: gscharly94/graph-web
+    volumes:
+      - .:/todo
+    ports:
+      - "5000:5000"
+    depends_on:
+      - db
+      - graph
+  db:
+    image: mongo:3.0.2
+    ports:
+      - "27017:27017"

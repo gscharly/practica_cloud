@@ -1,0 +1,19 @@
+version: '3.8'
+services:
+
+  graph:
+    build:
+      context: .
+      dockerfile: graph.dockerfile
+    image: gscharly94/graph-processing
+    volumes:
+      - .:/todo
+  web:
+    build:
+      context: .
+      dockerfile: web.dockerfile
+    image: gscharly94/graph-web
+    volumes:
+      - .:/todo
+  db:
+    image: mongo:3.0.2

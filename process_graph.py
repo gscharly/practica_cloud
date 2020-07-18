@@ -62,7 +62,6 @@ def add_node_metrics_to_g(g, comm_dict, centrality_dict):
     :return:
     """
     for community, comm_nodes in comm_dict.items():
-        print(community)
         idComm = 1
         for c in comm_nodes:
             for node in c:
@@ -96,6 +95,16 @@ if __name__ == '__main__':
     json_path = 'json'
     ids = ['complete', 'reduced']
 
+    # Connect to Mongo
+    conex = pymongo.MongoClient('db', 27017)
+    db = conex.graphs
+    # Drop if connection exists
+    print('Dropping collections')
+    db.complete_graph_nodes.drop()
+    db.reduced_graph_nodes.drop()
+    db.complete_graph_edges.drop()
+    db.reduced_graph_edges.drop()
+
     for graph_id in ids:
         edges_path = '{}/{}.edges'.format(base_path, graph_id)
         nodes_path = '{}/{}_nodes.csv'.format(base_path, graph_id)
@@ -111,13 +120,11 @@ if __name__ == '__main__':
         edge_betwenness = nx.edge_betweenness(g)
         g = add_edge_metrics_to_g(g, edge_betwenness)
 
-        # Connect to Mongo
-        conex = pymongo.MongoClient()
-        db = conex.graphs
         json_data = json_graph.node_link_data(g)
 
         # Write to Mongo
         nodes = json_data['nodes']
+        print('Writing nodes for {} graph'.format(graph_id))
         for node in nodes:
             if graph_id == 'complete':
                 db.complete_graph_nodes.insert_one(node)
@@ -125,6 +132,7 @@ if __name__ == '__main__':
                 db.reduced_graph_nodes.insert_one(node)
 
         edges = json_data['links']
+        print('Writing edges for {} graph'.format(graph_id))
         for edge in edges:
             if graph_id == 'complete':
                 db.complete_graph_edges.insert_one(edge)

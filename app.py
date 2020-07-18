@@ -4,7 +4,7 @@ from pymongo import MongoClient
 app = Flask(__name__)
 
 # Connect to Mongo
-client = MongoClient()
+client = MongoClient('db', 27017)
 db = client.graphs
 
 
