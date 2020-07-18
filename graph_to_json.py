@@ -16,10 +16,8 @@ def load_graph(edges_path, nodes_path):
     # Añadir atributos
     nodes0 = pd.read_csv(nodes_path)
     list_nodes = nodes0[['new_id', 'name', 'country', 'country_id', 'chef']].values.tolist()
-    # print(list_nodes)
     for row in list_nodes:
         g.add_node(row[0], name=row[1], country=row[2], country_id=row[3], chef=row[4])
-    # print(g.nodes)
     return g
 
 
@@ -69,7 +67,6 @@ def add_node_metrics_to_g(g, comm_dict, centrality_dict):
         for c in comm_nodes:
             for node in c:
                 g.nodes[node][community] = idComm
-                # Esto no deberia hacerse varias veces, pero no he sido capaz de mantenerlo si no
                 for metric_name, metric in centrality_dict.items():
                     g.nodes[node][metric_name] = metric[node]
             idComm += 1
@@ -90,26 +87,23 @@ def add_edge_metrics_to_g(g, edge_betwenness):
 
 def write_graph_json(g, json_file):
     json_data = json_graph.node_link_data(g)
-    # print(json_data)
     with open(json_file, 'w') as file:
         json.dump(json_data, file, indent='\t')
 
 
 if __name__ == '__main__':
-    base_path = 'fb-pages-food'
+    base_path = 'data'
     json_path = 'json'
-    edges_paths = [base_path + '/fb-pages-food.edges', base_path + '/fb-pages-food_unique.edges']
-    nodes_paths = [base_path + '/nodes_countries.csv',  base_path + '/nodes_final.csv']
     ids = ['complete', 'reduced']
 
-    for edges_path, nodes_path, graph_id in zip(edges_paths, nodes_paths, ids):
+    for graph_id in ids:
+        edges_path = '{}/{}.edges'.format(base_path, graph_id)
+        nodes_path = '{}/{}_nodes.csv'.format(base_path, graph_id)
         g = load_graph(edges_path, nodes_path)
 
         # Calculate node metrics
         comm_dict = get_communities(g)
         centrality_dict = get_centrality_metrics(g)
-        # print(comm_dict)
-        # print(centrality_dict)
 
         g = add_node_metrics_to_g(g, comm_dict, centrality_dict)
 
@@ -122,6 +116,7 @@ if __name__ == '__main__':
         db = conex.graphs
         json_data = json_graph.node_link_data(g)
 
+        # Write to Mongo
         nodes = json_data['nodes']
         for node in nodes:
             if graph_id == 'complete':
@@ -135,8 +130,3 @@ if __name__ == '__main__':
                 db.complete_graph_edges.insert_one(edge)
             else:
                 db.reduced_graph_edges.insert_one(edge)
-        #json_data['_id'] = graph_id
-        #db.documentos.insert_one(json_data)
-        #print(json_data)
-
-
