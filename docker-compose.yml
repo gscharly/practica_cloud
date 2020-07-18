@@ -3,6 +3,8 @@ services:
 
   graph:
     image: gscharly94/graph-processing
+    volumes:
+      - .:/todo
     depends_on:
       - db
   web:
