@@ -20,11 +20,11 @@ graphs_dict = dict()
 
 for name in graphs_names:
     if name == 'complete':
-        _complete_nodes = db.complete_graph_nodes.find()
-        _complete_edges = db.complete_graph_edges.find()
+        _complete_nodes = db.complete_graph_nodes.find({}, {'_id': False})
+        _complete_edges = db.complete_graph_edges.find({}, {'_id': False})
     else:
-        _complete_nodes = db.reduced_graph_nodes.find()
-        _complete_edges = db.reduced_graph_edges.find()
+        _complete_nodes = db.reduced_graph_nodes.find({}, {'_id': False})
+        _complete_edges = db.reduced_graph_edges.find({}, {'_id': False})
 
     complete_nodes = [item for item in _complete_nodes]
     complete_edges = [item for item in _complete_edges]

@@ -205,7 +205,8 @@
         var maxSizeCircle = 50;
         //deberia hacerse en funcion de los datos
         var sizeScale = d3.scaleLinear().domain([0, 0.3]).range([minSizeCircle, maxSizeCircle]);
-        var path = "../json/food_graph_countries_p1.json";
+        //var path = "../json/food_graph_countries_p1.json";
+        var path = "/completeGraph";
         var var2color = "default";
         var nodeDegree = "default";
         var defaultSize = 2.5;
@@ -435,7 +436,7 @@
         // Carga marcas
         d3.select('#loadUnique')
             .on('click', function(){
-                path = "../json/food_graph_final_p1.json";
+                path = "/reducedGraph";
                 console.log(path, nodeDegree, var2color);
                 collideForce.radius(radiusCollide);
                 draw_graph(path, nodeDegree, var2color);
@@ -446,7 +447,7 @@
         // Carga basico
         d3.select('#loadBasic')
             .on('click', function() {
-                    path = "../json/food_graph_countries_p1.json";
+                    path = "/completeGraph";
                     console.log(path, nodeDegree, var2color);
                     collideForce.radius(radiusCollide);
                     draw_graph(path, nodeDegree, var2color);
