@@ -3,14 +3,10 @@ services:
 
   graph:
     image: gscharly94/graph-processing
-    volumes:
-      - .:/todo
     depends_on:
       - db
   web:
     image: gscharly94/graph-web
-    volumes:
-      - .:/todo
     ports:
       - "5000:5000"
     depends_on:
